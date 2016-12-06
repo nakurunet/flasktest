@@ -1,4 +1,5 @@
 <ul>
+
 {% for task in tasks %}
     <li>
         {% if task.done %} <strike> {% endif %}{{ task.content }} {% if task.done %} </strike>{% endif %}
